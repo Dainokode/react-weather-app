@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+/* basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f1f1f1;
+    color: #555;
+}
+
+/* hide */
+.hide {
+    display: none;
+}
+
+/* container */
+.container {
+    width: 500px;
+    margin: 4rem auto;
+    text-align: center;
+}
+
+/* logo */
+.logo {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+/* form */
+.form-wrapper form label {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #808080;
+    letter-spacing: 0.1rem;
+}
+
+.form-wrapper form input {
+    display: block;
+    width: 70%;
+    margin: 0.5rem auto;
+    padding: 0.6rem;
+    border: solid 1.5px #D3D3D3;
+}
+
+.form-wrapper form input:focus {
+    box-shadow: 0 0 5pt 0.5pt #808080;
+    outline: none;
+}
+
+/* card */
+.card {
+    background-color: #fff;
+    width: 350px;
+    margin: 2rem auto;
+    box-shadow: 0 0 10pt 0.5pt #808080;
+    position: relative;
+}
+
+.card .card-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card .card-icon {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50px;
+    top: 170px;
+    left: 130px;
+    text-align: center;
+    width: 100px;
+}
+
+.card .card-text {
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.card .card-text .city {
+    font-size: 2rem;
+}
+
+.card .card-text .condition {
+    margin: 0.5rem 0;
+}
+
+.card .card-text .temp {
+    margin-top: 1rem;
+    font-size: 4rem;
+    color: #808080;
+    font-weight: normal;
+}
